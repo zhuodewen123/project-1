@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("/student")
-@Api(value="学生查看接口",tags={"学生APi"})
+@Api(value="学生查看接口",tags={"学生接口APi"})
 public class StudentController {
 
     @Autowired
