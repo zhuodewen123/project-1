@@ -18,6 +18,10 @@ public class Student {
 
     private String address;
 
+    private int currentPage=1;  //用于分页查询的当前页
+
+    private int pageSize=10;    //用于分页查询的每页容量
+
     public Integer getId() {
         return id;
     }
@@ -72,5 +76,21 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
     }
 }

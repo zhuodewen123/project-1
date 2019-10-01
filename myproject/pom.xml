@@ -88,7 +88,7 @@
 			<version>1.2.0</version>
 		</dependency>
 
-		<!--分页-->
+		<!--pagehelper分页-->
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
 			<artifactId>pagehelper</artifactId>
