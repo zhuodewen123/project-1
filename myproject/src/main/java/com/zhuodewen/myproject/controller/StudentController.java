@@ -43,7 +43,7 @@ public class StudentController {
     }
 
     /**
-     * 分页查询学生列表1(PageInfo分页返回)
+     * 分页查询学生列表1(PageInfo分页)
      * @return
      */
     @RequestMapping(value="list",method = RequestMethod.GET)
